@@ -22,10 +22,9 @@ float Student::getGpa() {
 	return sum/size;
 }	
 
-
 const std::string& Student::getLastName() {
-  // TODO Fill in real implementation
-  return std::string _last_name;
+  
+  return _last_name;
 }
 
 std::string Student::majorString(Major m) {
